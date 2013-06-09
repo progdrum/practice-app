@@ -3,9 +3,9 @@ require 'spec_helper'
 describe PagesController do
   render_views
   
-before(:each) do
-  @base_title = "RoR Tutorial Sample"
-end
+  before(:each) do
+    @base_title = "RoR Tutorial Sample"
+  end
 
   describe "GET 'home'" do
     it "returns http success" do
